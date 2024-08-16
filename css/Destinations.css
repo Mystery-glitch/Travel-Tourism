@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+/* 1️⃣NAVIGATION BAR */
+.navtag {
+    display: flex;
+    background-color: white;
+    width: 100%;
+}
+
+nav a:hover {
+    cursor: pointer;
+}
+
+.left img {
+    height: 12vh;
+    padding: 30px 100px 0px 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+.right {
+    text-align: center;
+    justify-content: center;
+    padding: 25px 0px 0px 50px;
+}
+
+.right a {
+    text-decoration: none;
+    color: white;
+}
+
+.right ul li {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+}
+
+.right ul li::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 3px;
+    background-color: #009688;
+    margin: auto;
+    transition: 0.2s linear;
+}
+
+.right ul li:hover::after {
+    width: 100%;
+}
+
+.background {
+    min-height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(4, 9, 30, 0.75), rgba(4, 9, 30, 0.75)), url(../images/IMG_8.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* 2️⃣ GALLERY */
+.destination h1 {
+    padding: 40px;
+    font-size: 36px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+}
+
+.destination h1 a {
+    font-size: 17px;
+    color: #009688;
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+}
+
+.image {
+    width: 25%;
+    padding: 100px 0px 0px 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image img {
+    height: 35vh;
+    width: 100%;
+    border-radius: 50px;
+}
+
+
+.layer h3 {
+    text-align: center;
+    color: #777;
+}
+
+.more a {
+    font-size: 17px;
+    color: rgb(124, 185, 163);
+    padding: 0px 0px 0px 80px;
+    text-decoration: none;
+}
+
+.more {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+/* 3️⃣ FOOTER */
+.footer {
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+}
+
+.footer p {
+    color: #777;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.icon .fa {
+    padding: 13px;
+}
+
+.icon :hover {
+    cursor: pointer;
+}

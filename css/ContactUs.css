@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+/* 1️⃣ NAVIGATION BAR */
+.navtag {
+    display: flex;
+    background-color: white;
+    width: 100%;
+}
+
+nav a:hover {
+    cursor: pointer;
+}
+
+img {
+    height: 12vh;
+    padding: 30px 100px 0px 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+.right {
+    text-align: center;
+    justify-content: center;
+    padding: 25px 0px 0px 50px;
+}
+
+.right a {
+    text-decoration: none;
+    color: white;
+}
+
+.right ul li {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+}
+
+.right ul li::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 3px;
+    background-color: #009688;
+    margin: auto;
+    transition: 0.2s linear;
+}
+
+.right ul li:hover::after {
+    width: 100%;
+}
+
+.background {
+    min-height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(4, 9, 30, 0.75), rgba(4, 9, 30, 0.75)), url(../images/IMG_3.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 2️⃣ CONTACT US */
+h1 {
+    padding: 40px;
+    font-size: 36px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+}
+
+.contactus {
+    display: flex;
+    margin: 20px;
+}
+
+.location iframe {
+    padding: 50px 0px 100px 80px;
+    align-items: center;
+}
+
+.contacts {
+    padding: 150px 0px 0px 150px;
+    align-items: center;
+}
+
+.contacticons {
+    padding: 20px;
+    display: flex;
+}
+
+.contacticons .fa {
+    font-size: 28px;
+    padding: 6px 30px 0px 0px;
+    color: #009688;
+}
+
+.contacticons p {
+    color: #777;
+    font-size: 14px;
+}
+
+.contacticons h5 {
+    font-size: 20px;
+    font-weight: 540;
+}
+
+form {
+    padding: 0px 0px 0px 200px;
+}
+
+.form input,
+textarea {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: transparent;
+    /* background-color: rgb(235, 235, 235); */
+}
+
+.btn button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background: transparent;
+}
+
+.btn button:hover {
+    background-color: #009688;
+    transition: 0.5s linear;
+    cursor: pointer;
+}
+
+/* 3️⃣ FOOTER */
+.footer {
+    padding: 100px 0px 0px 0px;
+    text-align: center;
+}
+
+.footer p {
+    color: #777;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.icon .fa {
+    padding: 13px;
+}
